@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "TaskManager.IRepository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "TaskManager.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskManager.IRepository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManager.IRepository.dll": {}
+        }
+      },
+      "TaskManager.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/TaskManager.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManager.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskManager.IRepository/1.0.0": {
+      "type": "project",
+      "path": "../TaskManager.IRepository/TaskManager.IRepository.csproj",
+      "msbuildProject": "../TaskManager.IRepository/TaskManager.IRepository.csproj"
+    },
+    "TaskManager.Model/1.0.0": {
+      "type": "project",
+      "path": "../TaskManager.Model/TaskManager.Model.csproj",
+      "msbuildProject": "../TaskManager.Model/TaskManager.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "TaskManager.IRepository >= 1.0.0",
+      "TaskManager.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/brunolima/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/brunolima/Documents/EclipseWorks/TaskManager.Service/TaskManager.Service.csproj",
+      "projectName": "TaskManager.Service",
+      "projectPath": "/Users/brunolima/Documents/EclipseWorks/TaskManager.Service/TaskManager.Service.csproj",
+      "packagesPath": "/Users/brunolima/.nuget/packages/",
+      "outputPath": "/Users/brunolima/Documents/EclipseWorks/TaskManager.Service/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/brunolima/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/TaskManager.IRepository.csproj": {
+              "projectPath": "/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/TaskManager.IRepository.csproj"
+            },
+            "/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/TaskManager.Model.csproj": {
+              "projectPath": "/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/TaskManager.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
