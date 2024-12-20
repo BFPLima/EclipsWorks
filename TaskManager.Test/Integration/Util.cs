@@ -39,4 +39,16 @@ internal class Util
         return response.Content.ReadFromJsonAsync<CreateTaskResponse>().Result;
     }
 
+    internal static CreateCommentaryResponse CreateTaskCommentary(TaskManagerWebApiFactory application, Guid taskId)
+    {
+        var client = application.CreateClient();
+
+        var response = client.PostAsJsonAsync("/api/commentary", new CreateCommentaryResquest()
+        {
+            Comment = "Comentário ...",
+            TaskId = taskId
+        }).Result;
+
+        return response.Content.ReadFromJsonAsync<CreateCommentaryResponse>().Result;
+    }
 }
