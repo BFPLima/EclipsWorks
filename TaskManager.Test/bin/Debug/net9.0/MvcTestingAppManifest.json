@@ -1,0 +1,7 @@
+{
+  "TaskManager.EFRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/brunolima\/Documents\/EclipseWorks\/TaskManager.EFRepository",
+  "TaskManager.IRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/brunolima\/Documents\/EclipseWorks\/TaskManager.IRepository",
+  "TaskManager.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/brunolima\/Documents\/EclipseWorks\/TaskManager.Model",
+  "TaskManager.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/brunolima\/Documents\/EclipseWorks\/TaskManager.Service",
+  "TaskManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/brunolima\/Documents\/EclipseWorks\/TaskManager.WebApi"
+}

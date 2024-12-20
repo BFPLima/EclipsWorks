@@ -42,3 +42,5 @@
 /Users/brunolima/Documents/EclipseWorks/TaskManager.WebApi/bin/Debug/net9.0/TaskManager.IRepository.pdb
 /Users/brunolima/Documents/EclipseWorks/TaskManager.WebApi/bin/Debug/net9.0/TaskManager.Service.dll
 /Users/brunolima/Documents/EclipseWorks/TaskManager.WebApi/bin/Debug/net9.0/TaskManager.Service.pdb
+/Users/brunolima/Documents/EclipseWorks/TaskManager.WebApi/bin/Debug/net9.0/AutoMapper.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.WebApi/obj/Debug/net9.0/TaskManager.WebApi.sourcelink.json

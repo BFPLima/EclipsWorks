@@ -15,3 +15,4 @@
 /Users/brunolima/Documents/EclipseWorks/TaskManager.Service/obj/Debug/net9.0/refint/TaskManager.Service.dll
 /Users/brunolima/Documents/EclipseWorks/TaskManager.Service/obj/Debug/net9.0/TaskManager.Service.pdb
 /Users/brunolima/Documents/EclipseWorks/TaskManager.Service/obj/Debug/net9.0/ref/TaskManager.Service.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Service/obj/Debug/net9.0/TaskManager.Service.sourcelink.json

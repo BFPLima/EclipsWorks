@@ -13,3 +13,4 @@
 /Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Debug/net9.0/refint/TaskManager.IRepository.dll
 /Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Debug/net9.0/TaskManager.IRepository.pdb
 /Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Debug/net9.0/ref/TaskManager.IRepository.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Debug/net9.0/TaskManager.IRepository.sourcelink.json

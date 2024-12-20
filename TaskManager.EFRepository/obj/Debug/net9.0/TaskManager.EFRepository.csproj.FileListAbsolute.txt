@@ -15,3 +15,4 @@
 /Users/brunolima/Documents/EclipseWorks/TaskManager.EFRepository/obj/Debug/net9.0/ref/TaskManager.EFRepository.dll
 /Users/brunolima/Documents/EclipseWorks/TaskManager.EFRepository/bin/Debug/net9.0/TaskManager.IRepository.dll
 /Users/brunolima/Documents/EclipseWorks/TaskManager.EFRepository/bin/Debug/net9.0/TaskManager.IRepository.pdb
+/Users/brunolima/Documents/EclipseWorks/TaskManager.EFRepository/obj/Debug/net9.0/TaskManager.EFRepository.sourcelink.json

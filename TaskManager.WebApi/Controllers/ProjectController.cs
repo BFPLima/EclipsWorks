@@ -54,7 +54,7 @@ public class ProjectController : ControllerBase
         User user = userService.Find(id);
 
         if (user == null)
-            return BadRequest("Usuário não encontrado");
+            return NotFound("Usuário não encontrado.");
 
         var list = new List<GetProjectByUserResponse>();
 

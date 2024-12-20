@@ -20,3 +20,4 @@
 /Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Debug/net9.0/refint/TaskManager.Model.dll
 /Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Debug/net9.0/TaskManager.Model.pdb
 /Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Debug/net9.0/ref/TaskManager.Model.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Debug/net9.0/TaskManager.Model.sourcelink.json

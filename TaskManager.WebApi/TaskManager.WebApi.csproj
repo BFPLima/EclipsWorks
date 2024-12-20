@@ -18,5 +18,5 @@
     <ProjectReference Include="..\TaskManager.IRepository\TaskManager.IRepository.csproj" />
     <ProjectReference Include="..\TaskManager.Service\TaskManager.Service.csproj" />
   </ItemGroup>
-
+  
 </Project>
