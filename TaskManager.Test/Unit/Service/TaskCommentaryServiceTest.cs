@@ -3,7 +3,7 @@ using TaskManager.IRepository;
 using TaskManager.Model;
 using TaskManager.Service;
 
-namespace TaskManager.Test;
+namespace TaskManager.Test.Unit.Service;
 
 public class TaskCommentaryServiceTest
 {

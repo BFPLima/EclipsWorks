@@ -61,7 +61,7 @@ public class TaskController : ControllerBase
         var project = projectService.Find(createTaskRequest.ProjectId);
 
         if (project == null)
-            return BadRequest("Não foi possível criar a Tarefa pois o Projeto informado não encontrado.");
+            return NotFound("Não foi possível criar a Tarefa pois o Projeto informado não encontrado.");
 
         var user = Util.GetUser(Request, userService);
 
@@ -113,7 +113,7 @@ public class TaskController : ControllerBase
         var task = taskService.Find(id);
 
         if (task == null)
-            return BadRequest("Task não encontrada.");
+            return NotFound("Task não encontrada.");
 
         taskService.Delete(task);
 
@@ -126,7 +126,7 @@ public class TaskController : ControllerBase
         var task = taskService.Find(id);
 
         if (task == null)
-            return BadRequest("Task não encontrada.");
+            return NotFound("Task não encontrada.");
 
 
         var user = Util.GetUser(Request, userService);
@@ -170,7 +170,7 @@ public class TaskController : ControllerBase
         var task = taskService.Find(id);
 
         if (task == null)
-            return BadRequest("Task não encontrada.");
+            return NotFound("Task não encontrada.");
 
 
         var list = new List<GetTaskHistoryByTaskResponse>();

@@ -11,7 +11,6 @@ namespace TaskManager.Test.integration;
 public class ProjectControllerTest
 {
 
-
     [Fact]
     public async Task CreateProjectTest()
     {
@@ -36,7 +35,7 @@ public class ProjectControllerTest
     {
         var application = new TaskManagerWebApiFactory();
 
-        var projectResponse = CreateProject(application);
+        var projectResponse = Util.CreateProject(application);
 
         var client = application.CreateClient();
 
@@ -66,7 +65,7 @@ public class ProjectControllerTest
     {
         var application = new TaskManagerWebApiFactory();
 
-        var projectResponse = CreateProject(application);
+        var projectResponse = Util.CreateProject(application);
 
         var client = application.CreateClient();
 
@@ -116,7 +115,7 @@ public class ProjectControllerTest
 
         var client = application.CreateClient();
 
-        var projectResponse = CreateProject(application);
+        var projectResponse = Util.CreateProject(application);
 
         var updateProjectResquest = new UpdateProjectResquest()
         {
@@ -139,7 +138,7 @@ public class ProjectControllerTest
 
         var client = application.CreateClient();
 
-        var projectResponse = CreateProject(application);
+        var projectResponse = Util.CreateProject(application);
 
         var response = await client.DeleteAsync($"/api/project/{projectResponse.Id}");
 
@@ -166,43 +165,11 @@ public class ProjectControllerTest
 
         var client = application.CreateClient();
 
-        var projectResponse = CreateProject(application);
-        var taskResponse = CreateTask(application, projectResponse.Id, Model.TaskStatus.Pending);
+        var projectResponse = Util.CreateProject(application);
+        var taskResponse = Util.CreateTask(application, projectResponse.Id, Model.TaskStatus.Pending);
 
         var response = await client.DeleteAsync($"/api/project/{projectResponse.Id}");
 
         response.StatusCode.Should().Be(System.Net.HttpStatusCode.BadRequest);
     }
-
-    private CreateProjectResponse CreateProject(TaskManagerWebApiFactory application)
-    {
-        var client = application.CreateClient();
-
-        var response = client.PostAsJsonAsync("/api/project", new CreateProjectResquest()
-        {
-            Title = "Título do Projeto"
-        }).Result;
-
-        return response.Content.ReadFromJsonAsync<CreateProjectResponse>().Result;
-    }
-
-    private CreateTaskResponse CreateTask(TaskManagerWebApiFactory application, Guid projectId, Model.TaskStatus status)
-    {
-        var client = application.CreateClient();
-
-        var response = client.PostAsJsonAsync("/api/task", new CreateTaskResquest()
-        {
-            Title = "Título do Projeto",
-            Description = "Descricão da Tarefa",
-            DueDateTime = DateTime.Now,
-            Priority = Model.TaskPriority.Low,
-            Status = status,
-            ProjectId = projectId
-        }).Result;
-
-        return response.Content.ReadFromJsonAsync<CreateTaskResponse>().Result;
-    }
-
-
-
 }

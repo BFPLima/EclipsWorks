@@ -25,8 +25,6 @@ public class TaskManagerWebApiFactory : WebApplicationFactory<Program>
             var dbContext = CreateDbContext(services);
             dbContext.Database.EnsureDeleted();
         });
-
-        //base.ConfigureWebHost(builder);
     }
 
     private static TaskManagerContext CreateDbContext(IServiceCollection serviceCollection)
