@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskManager.EFRepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f82519d1c471e135c5f2ba11ce91f522255cf42c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+862b36f55b209a90cf0af6435545b554fcd083e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskManager.EFRepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskManager.EFRepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

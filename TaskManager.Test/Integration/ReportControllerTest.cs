@@ -69,4 +69,27 @@ public class RetporControllerTest
         response.StatusCode.Should().Be(System.Net.HttpStatusCode.NotFound);
     }
 
+
+
+    [Fact]
+    public async Task GetReportPermissionDeniedTest()
+    {
+        var application = new TaskManagerWebApiFactory();
+
+        var projectResponse = Util.CreateProject(application);
+
+        for (int i = 0; i < 5; i++)
+        {
+            Util.CreateTask(application, projectResponse.Id, Model.TaskStatus.Completed);
+        }
+
+        var client = application.CreateClient();
+
+        client.DefaultRequestHeaders.Add("USER_ROLE", "ANALYST");
+
+        var response = await client.GetAsync($"/api/report?reportName=ConpletedTasksByUserInTheLast30Days");
+
+        response.StatusCode.Should().Be(System.Net.HttpStatusCode.BadRequest);
+    }
+
 }
