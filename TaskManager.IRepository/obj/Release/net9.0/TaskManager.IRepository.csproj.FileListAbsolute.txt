@@ -1,0 +1,16 @@
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/bin/Release/net9.0/TaskManager.IRepository.deps.json
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/bin/Release/net9.0/TaskManager.IRepository.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/bin/Release/net9.0/TaskManager.IRepository.pdb
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/bin/Release/net9.0/TaskManager.Model.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/bin/Release/net9.0/TaskManager.Model.pdb
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskManager.IRepository.csproj.AssemblyReference.cache
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskManager.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskManager.IRepository.AssemblyInfoInputs.cache
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskManager.IRepository.AssemblyInfo.cs
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskManager.IRepository.csproj.CoreCompileInputs.cache
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskManager.IRepository.sourcelink.json
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskMana.77514C47.Up2Date
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskManager.IRepository.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/refint/TaskManager.IRepository.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/TaskManager.IRepository.pdb
+/Users/brunolima/Documents/EclipseWorks/TaskManager.IRepository/obj/Release/net9.0/ref/TaskManager.IRepository.dll

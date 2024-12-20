@@ -1,0 +1,12 @@
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/bin/Release/net9.0/TaskManager.Model.deps.json
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/bin/Release/net9.0/TaskManager.Model.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/bin/Release/net9.0/TaskManager.Model.pdb
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/TaskManager.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/TaskManager.Model.AssemblyInfoInputs.cache
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/TaskManager.Model.AssemblyInfo.cs
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/TaskManager.Model.csproj.CoreCompileInputs.cache
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/TaskManager.Model.sourcelink.json
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/TaskManager.Model.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/refint/TaskManager.Model.dll
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/TaskManager.Model.pdb
+/Users/brunolima/Documents/EclipseWorks/TaskManager.Model/obj/Release/net9.0/ref/TaskManager.Model.dll
