@@ -2,7 +2,7 @@
 
 namespace TaskManager.IRepository;
 
-public interface IReportRepository : IRepositoryBase<Project>
+public interface IReportRepository
 {
-    public IEnumerable<Project> GetByUser(User user);
+    public IEnumerable<Object[]> GetConpletedTasksByUserInTheLast30Days();
 }

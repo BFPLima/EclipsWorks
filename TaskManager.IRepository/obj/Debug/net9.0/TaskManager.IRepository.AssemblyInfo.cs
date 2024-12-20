@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskManager.IRepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+820d6c8c01453f34db140396a3dbe9a71a9a25a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35719dd19e78118158d16fd38d648a88ce110742")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskManager.IRepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskManager.IRepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

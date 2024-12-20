@@ -24,10 +24,12 @@ public class Program
         builder.Services.AddScoped<ITaskRepository, TaskEFRepository>();
         builder.Services.AddScoped<ITaskUpdateHistoryRepository, TaskUpdateHistoryEFRepository>();
         builder.Services.AddScoped<ITaskCommentaryRepository, TaskCommentaryEFRepository>();
+        builder.Services.AddScoped<IReportRepository, ReportEFRepository>();
         builder.Services.AddScoped<ProjectService>();
         builder.Services.AddScoped<UserService>();
         builder.Services.AddScoped<TaskService>();
         builder.Services.AddScoped<TaskCommentaryService>();
+        builder.Services.AddScoped<ReportService>();
 
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddOpenApi();
